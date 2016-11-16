@@ -47,7 +47,7 @@ Although this is not very human friendly.
 *. Clone the repo into a directory within `~/Sites` I used "walle". The directory name correlates with the URL used to access the site/api e.g. `http://walle.localhost`
 *. CD to the directory e.g. `cd ~/Sites/walle`
 *. [Secure](https://laravel.com/docs/5.3/valet#securing-sites) the site e.g. `valet secure walle` - this will serve the site from `https://walle.localhost`
-*. Install the project dependencies using composer e.g. `composer install` - this will take a few minutes
+*. Install the project dependencies using composer e.g. `composer install` - this will take a few minutes. You should end up with a new `vendor` dictory like [https://cl.ly/3h2R072W3832](https://cl.ly/3h2R072W3832)
 *. Create a`.env` file within the project root with the following contents:
 
 ```
