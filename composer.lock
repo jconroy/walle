@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da760c1e3335c80bd57102949c824049",
-    "content-hash": "ee57b19065ce498129c7a6aaa99bf0ef",
+    "hash": "e910ac2933fff61236c839f3241f0e92",
+    "content-hash": "2f2cc8770b3618123e770530c5cb82b6",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -928,6 +928,51 @@
             "description": "The Illuminate Queue package.",
             "homepage": "https://laravel.com",
             "time": "2016-11-08 18:04:54"
+        },
+        {
+            "name": "illuminate/redis",
+            "version": "v5.2.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/redis.git",
+                "reference": "4f51b4150023321befc124576db21a769c6c9be9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/redis/zipball/4f51b4150023321befc124576db21a769c6c9be9",
+                "reference": "4f51b4150023321befc124576db21a769c6c9be9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.3.*",
+                "illuminate/support": "5.3.*",
+                "php": ">=5.6.4",
+                "predis/predis": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Redis\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "The Illuminate Redis package.",
+            "homepage": "http://laravel.com",
+            "time": "2015-12-05 16:45:12"
         },
         {
             "name": "illuminate/session",
