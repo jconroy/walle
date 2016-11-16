@@ -81,4 +81,11 @@ $app->get('queue', function () use ($app) {
     return 'ExampleJob Queued...';
 });
 
-
+/**
+ * Scheduled Test
+ *
+ * Need to create a scheduled task to run every x (60 minutes) minutes which checks tests date/time.
+ * If the testis due to be sent within the next 60 minutes "queue" the test job.
+ * When the test is complete, mark the test as complete in the db.
+ *
+ */
